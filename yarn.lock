@@ -769,10 +769,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
   integrity sha512-rLu3wcBWH4P5q1CGoSSH/i9hrXs7SlbRLkoq9IGuoPYNGQvDJ3pt/wmOM+XgYjIDRMVIdkUWt0RsfzF50JfnCw==
 
-"@jahia/apollo-dx@^1.0.0-featureBACKLOG10163.1", "@jahia/apollo-dx@^1.0.0-featureBACKLOG10163.20190424180340":
-  version "1.0.0-featureBACKLOG9621.20190418090114"
-  resolved "http://npm.int.jahia.com:4873/@jahia%2fapollo-dx/-/apollo-dx-1.0.0-featureBACKLOG9621.20190418090114.tgz#44b5398cc8e146ed9ba2f3c8a2f4835f45a909e0"
-  integrity sha512-S6pwqTPlpTKJ+WTmU+LoO57EbZobhm/PKdC0AWhWQmeMFISEjUL3RmKTVk84PWG1zp4M9hqlNkifSVrCri/B2g==
+"@jahia/apollo-dx@featureBACKLOG10163":
+  version "1.0.0-featureBACKLOG10163.20190424184627"
+  resolved "http://npm.int.jahia.com:4873/@jahia%2fapollo-dx/-/apollo-dx-1.0.0-featureBACKLOG10163.20190424184627.tgz#db235f34dca56b44f6895295f9a151bc01cecbfd"
+  integrity sha512-OWNbm/xaagQqpmAeJ50/+PFYbmaZoG8Vj8IGOreFyXHyABMk4uzN6dkHE8RjDpWIsS5ul5dgR8U9YBaF0cD4cg==
   dependencies:
     apollo-cache-inmemory "^1.5.1"
     apollo-client "^2.5.1"
@@ -785,37 +785,38 @@
     lodash "^4.17.10"
     zen-observable "^0.8.8"
 
-"@jahia/ds-mui-theme@^1.0.0-featureBACKLOG10163.20190424180340":
-  version "1.0.0-featureBACKLOG9621.20190418090117"
-  resolved "http://npm.int.jahia.com:4873/@jahia%2fds-mui-theme/-/ds-mui-theme-1.0.0-featureBACKLOG9621.20190418090117.tgz#563a3a05a8ada3dc539a699adf6ce4b2e55d506c"
-  integrity sha512-y9/bAniv1PegOVNzxeFpPkfS1wxBwzQdZ0yOYaxgd3Twf9rl6NjPs4qdFg21DVDFFrT8Q+WrogVIbBn4OeC3bQ==
+"@jahia/ds-mui-theme@featureBACKLOG10163":
+  version "1.0.0-featureBACKLOG10163.20190424184627"
+  resolved "http://npm.int.jahia.com:4873/@jahia%2fds-mui-theme/-/ds-mui-theme-1.0.0-featureBACKLOG10163.20190424184627.tgz#282b1c5e00db9e50ef14cbd58783130c4d140373"
+  integrity sha512-Kc72/cllZ9XokWPjScvIO2eVTj5aSYctTYB9i5c7g622g+Xo3GSE/uvKegMy2PTUJCt+Y1iLu+7vlJPVc2k7NQ==
   dependencies:
+    "@material-ui/core" "^3.9.3"
     classnames "^2.2.6"
     lodash "^4.17.10"
     prop-types "^15.6.2"
 
-"@jahia/i18next@^1.0.0-featureBACKLOG10163.20190424180340":
-  version "1.0.0-featureBACKLOG9621.20190418090114"
-  resolved "http://npm.int.jahia.com:4873/@jahia%2fi18next/-/i18next-1.0.0-featureBACKLOG9621.20190418090114.tgz#45fb8fcde466f895bb1b87ad1927eda707cf3561"
-  integrity sha512-X9nKvs8YeD3KEKk3lHFkzqj0pIdh/IxGRfU9cC1A3AD3Ngdl/DnOve8E0JaeIk5at6vOsT2b5vQjc+Y2TU7iNw==
+"@jahia/i18next@featureBACKLOG10163":
+  version "1.0.0-featureBACKLOG10163.20190424184627"
+  resolved "http://npm.int.jahia.com:4873/@jahia%2fi18next/-/i18next-1.0.0-featureBACKLOG10163.20190424184627.tgz#a24ab7f7f5e0f04c18235b3995703f6474fb8ad4"
+  integrity sha512-DgNzd9fCMYgOMRbjuAuT3gGIv9BnGURkev90A1tgc4dr46grPg6Aeau+TP+pGsaHbA9B1UfIgXpb2w6hyIGHQw==
   dependencies:
     i18next "^11.3.2"
     i18next-chained-backend "^0.1.2"
     i18next-xhr-backend "^1.5.1"
 
-"@jahia/icons@^1.0.0-featureBACKLOG10163.20190424180340":
-  version "1.0.0-featureBACKLOG9621.20190418090114"
-  resolved "http://npm.int.jahia.com:4873/@jahia%2ficons/-/icons-1.0.0-featureBACKLOG9621.20190418090114.tgz#b1b575af3adc5cbe2c487cf23d0135a2f76c20a0"
-  integrity sha512-RIXFMQQaq05LQl+6rhIJ9b155gHAF76WxfFU3/2N6/LwYAlmbfvdS0qSDA0HcS7I3YZfuH7Z375GOXdi1GYq5g==
+"@jahia/icons@featureBACKLOG10163":
+  version "1.0.0-featureBACKLOG10163.20190424184627"
+  resolved "http://npm.int.jahia.com:4873/@jahia%2ficons/-/icons-1.0.0-featureBACKLOG10163.20190424184627.tgz#c760452745ed5739705b5303b6d30a2d163158d2"
+  integrity sha512-FHuh6IQYyfKT6Ez8j91QERLXoDktBTXhRN9BuYfrbIzTYqXO+RaB6sQ+Ocu/fVfOF3M3yB5RGyJ05hVCDcELLw==
   dependencies:
     "@material-ui/icons" "^3.0.2"
     mdi-material-ui "^5.10.0"
     recompose "^0.30.0"
 
-"@jahia/layouts@^1.0.0-featureBACKLOG10163.20190424180341":
-  version "1.0.0-featureBACKLOG9621.20190418090114"
-  resolved "http://npm.int.jahia.com:4873/@jahia%2flayouts/-/layouts-1.0.0-featureBACKLOG9621.20190418090114.tgz#228ca70ac3e9511a707d0a477ac2535eaab9fc2e"
-  integrity sha512-Vqne+nApHASwXOCrm03oz9dRjuckRfgwY0fshx/9xwENmTRUurisHzEv79n9+iBOo4rAIN0vY4jrRNyO8ZtPYQ==
+"@jahia/layouts@featureBACKLOG10163":
+  version "1.0.0-featureBACKLOG10163.20190424184628"
+  resolved "http://npm.int.jahia.com:4873/@jahia%2flayouts/-/layouts-1.0.0-featureBACKLOG10163.20190424184628.tgz#6c776fbcfa92eb45629eb3c2f42c83838f80e28a"
+  integrity sha512-aT5y6cititN0dRIKZ8b3Wbs7B0upHAM1qanuA0uQAw0rf+iDsK6LHxmuby2Rr3IdLp0BAtcURrY4rqcGsBmbIg==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.10"
@@ -823,21 +824,21 @@
     react-i18next "^7.6.1"
     recompose "^0.30.0"
 
-"@jahia/react-apollo@^1.0.0-featureBACKLOG10163.20190424181650":
-  version "1.0.0-featureBACKLOG10163.20190424181650"
-  resolved "http://npm.int.jahia.com:4873/@jahia%2freact-apollo/-/react-apollo-1.0.0-featureBACKLOG10163.20190424181650.tgz#ce36865c6d8f1ba1e1ef1e69b60586c6cd694d7b"
-  integrity sha512-pTRg0vyfyS28YaCz7JB6HpPKnRHkMblFbbjsyxoYSdMjxRCzdt3qRTR4tWP4FlRRm9gTfZlExb2Rbuvp2eZVmA==
+"@jahia/react-apollo@featureBACKLOG10163":
+  version "1.0.0-featureBACKLOG10163.20190424185906"
+  resolved "http://npm.int.jahia.com:4873/@jahia%2freact-apollo/-/react-apollo-1.0.0-featureBACKLOG10163.20190424185906.tgz#9e0f0dc3091b869e4d755e63e73e13ed36873f84"
+  integrity sha512-GYRKucHGuzK83qda4IthaQhsPLqg15TICEQRQGd0kH9nbeNMvN92a53WSCtQIinMnJ/67npGdwEGthU5ionITQ==
   dependencies:
-    "@jahia/apollo-dx" "^1.0.0-featureBACKLOG10163.1"
+    "@jahia/apollo-dx" featureBACKLOG10163
     apollo-client "^2.5.1"
     lodash "^4.17.10"
     prop-types "^15.6.1"
     react-apollo "^2.5.3"
 
-"@jahia/react-material@^1.0.0-featureBACKLOG10163.20190424180341":
-  version "1.0.0-featureBACKLOG9621.20190418090115"
-  resolved "http://npm.int.jahia.com:4873/@jahia%2freact-material/-/react-material-1.0.0-featureBACKLOG9621.20190418090115.tgz#b4f631fdf2d6cb2e1b6d08003d0fa40fdcf6d0e9"
-  integrity sha512-EvXQzDoBpvGgjCblTIdbQyBw7bEdmlXN6Tt3g9Owl6dmvq5sOInXrdn3YJaSLfO6+RhdTniQNSuXqb14pwGorQ==
+"@jahia/react-material@featureBACKLOG10163":
+  version "1.0.0-featureBACKLOG10163.20190424184628"
+  resolved "http://npm.int.jahia.com:4873/@jahia%2freact-material/-/react-material-1.0.0-featureBACKLOG10163.20190424184628.tgz#4f924167353bb344729ef6f5707c1f0e13380dd3"
+  integrity sha512-Rr4YVAe5wko+ERLJvXlGcDihN0vFniBGriWootbFZjuYaaY/OsaUjontywmqy2Dn4ITSgSyzgSxDe99oYw2olA==
   dependencies:
     lodash "^4.17.10"
     prop-types "^15.6.1"
@@ -845,10 +846,10 @@
     react-select "^2.4.2"
     recompose "^0.30.0"
 
-"@jahia/registry@^1.0.0-featureBACKLOG10163.20190424180342":
-  version "1.0.0-featureBACKLOG9621.20190418090116"
-  resolved "http://npm.int.jahia.com:4873/@jahia%2fregistry/-/registry-1.0.0-featureBACKLOG9621.20190418090116.tgz#87bb7805a4cbbe063ab1282bd90ae9f012470f09"
-  integrity sha512-BvEJVFdXf7kPzcsz6ikO7JhoaZtl6iruyf1rNk7GXa6fvWB83S2uZ9f7dG/0Oq2UW//KNHFU6sSggkdI2stpew==
+"@jahia/registry@featureBACKLOG10163":
+  version "1.0.0-featureBACKLOG10163.20190424184630"
+  resolved "http://npm.int.jahia.com:4873/@jahia%2fregistry/-/registry-1.0.0-featureBACKLOG10163.20190424184630.tgz#de3c447cc6fbb474550f4ce6c7f4bcda7166ffa3"
+  integrity sha512-gH/Iw41rP76ks59MmCPYyIMNLF1MiijyuRpTE6ZnJUxwkVetrmg7DYsNm8YxGofJ/CPsHt21ZDWHUmm4DHCAJw==
   dependencies:
     lodash "^4.17.10"
     prop-types "^15.6.1"
