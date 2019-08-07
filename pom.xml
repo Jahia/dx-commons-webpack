@@ -62,7 +62,7 @@
         <connection>scm:git:git@github.com:Jahia/dx-commons-webpack.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/dx-commons-webpack.git</developerConnection>
         <url>https://github.com/Jahia/dx-commons-webpack</url>
-        <tag>1_1_0</tag>
+        <tag>1-1-0-BRANCH</tag>
     </scm>
 
     <properties>
