@@ -4,17 +4,18 @@ require('react-dom');
 require('react-router');
 require('react-router-dom');
 require('react-apollo');
+require('react-i18next');
 require('redux');
 require('rxjs');
 require('whatwg-fetch');
 
 // Jahia packages
+// Imports old version of react-i18next require('@jahia/design-system-kit');
+// Imports old version of react-i18next require('@jahia/react-material');
 require('@jahia/apollo-dx');
-require('@jahia/design-system-kit');
 require('@jahia/i18next');
 require('@jahia/icons');
 require('@jahia/react-apollo');
-require('@jahia/react-material');
 require('@jahia/registry');
 require('@jahia/moonstone');
 
