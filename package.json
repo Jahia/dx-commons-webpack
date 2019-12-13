@@ -6,7 +6,7 @@
         "webpack": "node --max_old_space_size=2048 ./node_modules/webpack/bin/webpack.js",
         "webpack:manifest": "yarn webpack --manifest",
         "build:analyze": "yarn webpack --analyze",
-        "build:production": "yarn lint && yarn webpack -p && yarn webpack:manifest -p",
+        "build:production": "yarn lint && yarn webpack && yarn webpack:manifest",
         "build:production-analyze": "yarn webpack -p --analyze",
         "watch": "yarn webpack --watch",
         "clean": "rimraf *.log src/main/resources/javascript/apps",

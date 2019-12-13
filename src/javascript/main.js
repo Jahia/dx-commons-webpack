@@ -10,8 +10,8 @@ require('rxjs');
 require('whatwg-fetch');
 
 // Jahia packages
-// Imports old version of react-i18next require('@jahia/design-system-kit');
-// Imports old version of react-i18next require('@jahia/react-material');
+require('@jahia/design-system-kit');
+require('@jahia/react-material');
 require('@jahia/apollo-dx');
 require('@jahia/i18next');
 require('@jahia/icons');
