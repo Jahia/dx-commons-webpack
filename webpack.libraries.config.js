@@ -98,7 +98,14 @@ module.exports = (env, argv) => {
                     test: /\.scss$/i,
                     sideEffects: true,
                     use: [
-                        'style-loader',
+                        {
+                            loader: 'style-loader',
+                            options: {
+                                attributes: {
+                                    styleloader: true
+                                }
+                            }
+                        },
                         // Translates CSS into CommonJS
                         {
                             loader: 'css-loader',
